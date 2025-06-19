@@ -1,0 +1,12 @@
+Desarrolla el código para elaborar un calendario en react, con las siguientes funcionalidades:
+1. Mostrar actividades programadas con diferentes colores
+2. No se requiere el manejo de usuarios
+3. Hojear de un mes a otro, no se requiere vista por día.
+4. Tener vista por mes y por año.
+5. Descargar el calendario en PDF
+6. Las actividades las deberá tomar de un archivo CSV con los siguiente campos:
+    - Fecha de inicio, fecha de término, nombre de la actividad, color.
+7. El calendario debe cubrir un ciclo escolar desde agosto del año 
+inicial hasta julio del siguiente año, por ejemplo de agosto 2024 hasta julio 2025. 
+8. El diseño en pantalla y en el pdf debe ser como se muestra en el archivo que se adjunta.
+9. Los días y meses deben ser dinámicos, es decir, se debe inclur un archivo de configuración XML con el mes inicial y el final
