@@ -28,7 +28,7 @@ export default function MonthMini({ monthIndex, year, activities, onClick }) {
   for (let i = 0; i < remainingCells; i++) {
     cells.push(null);
   }
-
+  
   function getColorForDay(day) {
     const date = new Date(year, monthIndex, day)
     const evt = activities.find(
@@ -40,11 +40,11 @@ export default function MonthMini({ monthIndex, year, activities, onClick }) {
   return (
     <div className="month-mini" onClick={onClick}>
       <div className="month-mini-header">
-        {firstDate.toLocaleString('default', { month: 'long' })}
+        {firstDate.toLocaleString('default', { month: 'long' })} - {year}
       </div>
       <div className="day-grid">
-        {['D', 'L', 'M', 'M', 'J', 'V', 'S'].map((s) => (
-          <div key={s} className="dow">
+        {['D', 'L', 'M', 'M', 'J', 'V', 'S'].map((s, idx) => (
+          <div key={idx} className="dow">
             {s}
           </div>
         ))}
