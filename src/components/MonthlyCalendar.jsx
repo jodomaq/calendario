@@ -87,57 +87,77 @@ export default function MonthlyCalendar() {
   }
 
   return (
-    <div className="monthly-calendar" ref={monthlyRef}>
-      <div className="monthly-header">
-        <button className="back-button" onClick={goToAnnualView}>
-          ⬅️ Vista Anual
-        </button>
-        <div className="month-navigation">
-          <button onClick={goToPrevMonth}>&lt;</button>
-          <h2>{monthName}</h2>
-          <button onClick={goToNextMonth}>&gt;</button>
+    <div className="monthly-calendar-container" ref={monthlyRef}>
+      <div className="monthly-calendar">
+        <div className="monthly-header">
+          <button className="back-button" onClick={goToAnnualView}>
+            ⬅️ Vista Anual
+          </button>
+          <div className="month-navigation">
+            <button onClick={goToPrevMonth}>&lt;</button>
+            <h2>{monthName}</h2>
+            <button onClick={goToNextMonth}>&gt;</button>
+          </div>
+          <button className="export-button" onClick={handleExportPdf} title="Exportar a PDF">
+            <span role="img" aria-label="PDF">📄</span> PDF
+          </button>
         </div>
-        <button className="export-button" onClick={handleExportPdf} title="Exportar a PDF">
-          <span role="img" aria-label="PDF">📄</span> PDF
-        </button>
+
+        <div className="calendar-grid">
+          {/* Encabezados de los días de la semana */}
+          {['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'].map(day => (
+            <div key={day} className="weekday-header">{day}</div>
+          ))}
+
+          {/* Celdas de los días */}
+          {days.map((day, index) => {
+            const dayActivities = getActivitiesForDay(day)
+            
+            return (
+              <div 
+                key={index} 
+                className={`day-cell-month ${!day ? 'empty-day' : ''}`}
+              >
+                {day && (
+                  <>
+                    <div className="day-number">{day}</div>
+                    <div className="day-activities">
+                      {dayActivities.map((activity, actIndex) => (
+                        isActivityStart(activity, day) && (
+                          <div 
+                            key={actIndex}
+                            className="activity-item"
+                            style={{ backgroundColor: activity.color }}
+                          >
+                            {activity.title}
+                          </div>
+                        )
+                      ))}
+                    </div>
+                  </>
+                )}
+              </div>
+            )
+          })}
+        </div>
       </div>
 
-      <div className="calendar-grid">
-        {/* Encabezados de los días de la semana */}
-        {['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'].map(day => (
-          <div key={day} className="weekday-header">{day}</div>
-        ))}
-
-        {/* Celdas de los días */}
-        {days.map((day, index) => {
-          const dayActivities = getActivitiesForDay(day)
-          
-          return (
-            <div 
-              key={index} 
-              className={`day-cell ${!day ? 'empty-day' : ''}`}
-            >
-              {day && (
-                <>
-                  <div className="day-number">{day}</div>
-                  <div className="day-activities">
-                    {dayActivities.map((activity, actIndex) => (
-                      isActivityStart(activity, day) && (
-                        <div 
-                          key={actIndex}
-                          className="activity-item"
-                          style={{ backgroundColor: activity.color }}
-                        >
-                          {activity.title}
-                        </div>
-                      )
-                    ))}
-                  </div>
-                </>
-              )}
+      {/* Lista de actividades con colores (Leyenda) */}
+      <div className="activities-legend">
+        <div className="legend-header">
+          <h3>Actividades</h3>
+        </div>
+        <div className="legend-items">
+          {activities.map((activity, index) => (
+            <div className="legend-item" key={index}>
+              <div 
+                className="legend-color" 
+                style={{ backgroundColor: activity.color }}
+              ></div>
+              <div className="legend-text">{activity.title}</div>
             </div>
-          )
-        })}
+          ))}
+        </div>
       </div>
     </div>
   )

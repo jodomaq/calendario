@@ -1,8 +1,15 @@
-.monthly-calendar {
-  max-width: 1100px;
+.monthly-calendar-container {
+  display: flex;
+  max-width: 1400px;
   margin: 0 auto;
+  gap: 1.5rem;
   padding: 0 1rem;
   font-family: system-ui, sans-serif;
+}
+
+.monthly-calendar {
+  flex: 1;
+  min-width: 0;
 }
 
 .monthly-header {
@@ -85,7 +92,7 @@
   font-weight: bold;
 }
 
-.day-cell {
+.day-cell-month {
   min-height: 100px;
   border: 1px solid var(--color-light);
   padding: 0.25rem;
@@ -120,13 +127,72 @@
   position: relative;
 }
 
+/* Estilos para la leyenda de actividades */
+.activities-legend {
+  width: 280px;
+  min-width: 280px;
+  background-color: white;
+  border: 1px solid var(--color-light);
+  border-radius: 8px;
+  padding: 1rem;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+.legend-header {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-light);
+  padding-bottom: 0.5rem;
+}
+
+.legend-header h3 {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.legend-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.legend-text {
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .weekday-header {
     font-size: 0.75rem;
     padding: 0.25rem;
   }
   
-  .day-cell {
+  .day-cell-month {
     min-height: 70px;
+  }
+  
+  .monthly-calendar-container {
+    flex-direction: column;
+  }
+  
+  .activities-legend {
+    width: 100%;
+    min-width: 100%;
+    margin-top: 1.5rem;
   }
 }

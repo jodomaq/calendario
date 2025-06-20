@@ -33,27 +33,47 @@ export default function AnnualCalendar() {
   })
 
   return (
-    <div className="annual-wrapper" ref={calendarRef}>
-      <header className="annual-header">
-        <h1>Calendario escolar {config.startYear}-{config.startYear + 1}</h1>
-        <div className="header-actions">
-          <small>Versión {config.version} – emitido {format(config.issueDate, 'dd/MM/yyyy', { locale: es })}</small>
-          <button className="export-button" onClick={handleExportPdf} title="Exportar a PDF">
-            <span role="img" aria-label="PDF">📄</span> PDF
-          </button>
+    <div className="annual-container">
+      <div className="annual-wrapper" ref={calendarRef}>
+        <header className="annual-header">
+          <h1>Calendario escolar {config.startYear}-{config.startYear + 1}</h1>
+          <div className="header-actions">
+            <small>Versión {config.version} – emitido {format(config.issueDate, 'dd/MM/yyyy', { locale: es })}</small>
+            <button className="export-button" onClick={handleExportPdf} title="Exportar a PDF">
+              <span role="img" aria-label="PDF">📄</span> PDF
+            </button>
+          </div>
+        </header>
+        <div className="months-grid">
+          {months.map(({ monthIndex, year }) => (
+            <MonthMini
+              key={`${year}-${monthIndex}`}
+              monthIndex={monthIndex}
+              year={year}
+              activities={activities}
+              label={format(new Date(year, monthIndex, 1), 'MMMM yyyy', { locale: es })}
+              onClick={() => setView({ type: 'month', year, month: monthIndex })}
+            />
+          ))}
         </div>
-      </header>
-      <div className="months-grid">
-        {months.map(({ monthIndex, year }) => (
-          <MonthMini
-            key={`${year}-${monthIndex}`}
-            monthIndex={monthIndex}
-            year={year}
-            activities={activities}
-            label={format(new Date(year, monthIndex, 1), 'MMMM yyyy', { locale: es })}
-            onClick={() => setView({ type: 'month', year, month: monthIndex })}
-          />
-        ))}
+      </div>
+
+      {/* Lista de actividades con colores (Leyenda) */}
+      <div className="activities-legend-annual">
+        <div className="legend-header">
+          <h3>Actividades</h3>
+        </div>
+        <div className="legend-items">
+          {activities.map((activity, index) => (
+            <div className="legend-item" key={index}>
+              <div 
+                className="legend-color" 
+                style={{ backgroundColor: activity.color }}
+              ></div>
+              <div className="legend-text">{activity.title}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )

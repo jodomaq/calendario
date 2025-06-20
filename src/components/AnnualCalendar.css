@@ -5,6 +5,15 @@
   --color-light: #636566;
 }
 
+.annual-container {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 1.5rem;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+}
+
 .annual-wrapper {
   max-width: 1100px;
   margin: 0 auto;
@@ -83,15 +92,30 @@
   font-size: 0.7rem;
 }
 
-.day-grid {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
+/* Contenedor principal del calendario */
+.calendar-container {
+  display: flex;
+  flex-direction: column;
   background-color: var(--color-white);
-  grid-auto-rows: 18px;
-  align-content: start;
-  min-height: 126px; /* 7 rows * 18px */
 }
 
+/* Cabecera con los días de la semana */
+.day-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* Contenedor de semanas */
+.weeks-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fila de semana */
+.week-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
 
 .dow {
   background: var(--color-light);
@@ -135,24 +159,74 @@
   margin: 0;
   padding: 0;
 }
+
 .day-cell span {
   display: block;
-  width: 100%;
   text-align: center;
   font-size: inherit;
   line-height: 1.1;
-  vertical-align: middle;
-}
-
-.day-cell span {
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: inherit;
-  line-height: 1;
-}
-
-
-.day-cell span {
   z-index: 1;
+}
+
+/* Estilos para la leyenda de actividades en el calendario anual */
+.activities-legend-annual {
+  width: 280px;
+  min-width: 280px;
+  background-color: white;
+  border: 1px solid var(--color-light);
+  border-radius: 8px;
+  padding: 1rem;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+  margin-top: 3.2rem; /* Alinearlo con el contenido del calendario */
+}
+
+.activities-legend-annual .legend-header {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-light);
+  padding-bottom: 0.5rem;
+}
+
+.activities-legend-annual .legend-header h3 {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.activities-legend-annual .legend-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.activities-legend-annual .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.activities-legend-annual .legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.activities-legend-annual .legend-text {
+  font-size: 0.9rem;
+}
+
+/* Responsive para leyenda del calendario anual */
+@media (max-width: 768px) {
+  .annual-container {
+    flex-direction: column;
+  }
+  
+  .activities-legend-annual {
+    width: 100%;
+    min-width: 100%;
+    margin-top: 1.5rem;
+  }
 }

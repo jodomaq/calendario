@@ -23,11 +23,18 @@ export default function MonthMini({ monthIndex, year, activities, onClick }) {
     cells.push(day);
   }
   
-  // 3. Completar con celdas vacías hasta el final (múltiplo de 7)
-  const remainingCells = (7 - (cells.length % 7)) % 7;
-  for (let i = 0; i < remainingCells; i++) {
-    cells.push(null);
+  // 3. Completar con celdas vacías hasta el final de la fila actual, pero sin añadir filas nuevas
+  const currentRowCells = cells.length % 7;
+  
+  // Solo añadimos celdas si estamos en medio de una fila (no añadimos filas completamente vacías)
+  if (currentRowCells > 0) {
+    const remainingCells = 7 - currentRowCells;
+    for (let i = 0; i < remainingCells; i++) {
+      cells.push(null);
+    }
   }
+
+  console.log(cells)
   
   function getColorForDay(day) {
     const date = new Date(year, monthIndex, day)
@@ -37,26 +44,54 @@ export default function MonthMini({ monthIndex, year, activities, onClick }) {
     return evt?.color || 'transparent'
   }
 
+  // Organizar las celdas en filas para mejor control
+  const weeks = [];
+  let currentWeek = [];
+  
+  cells.forEach((cell) => {
+    currentWeek.push(cell);
+    if (currentWeek.length === 7) {
+      weeks.push([...currentWeek]);
+      currentWeek = [];
+    }
+  });
+  
+  // Si la última semana tiene celdas, agregarla
+  if (currentWeek.length > 0) {
+    weeks.push(currentWeek);
+  }
+
   return (
     <div className="month-mini" onClick={onClick}>
       <div className="month-mini-header">
         {firstDate.toLocaleString('default', { month: 'long' })} - {year}
       </div>
-      <div className="day-grid">
-        {['D', 'L', 'M', 'M', 'J', 'V', 'S'].map((s, idx) => (
-          <div key={idx} className="dow">
-            {s}
-          </div>
-        ))}
-        {cells.map((cell, idx) => (
-          <div
-            key={idx}
-            className="day-cell"
-            style={{ backgroundColor: cell ? getColorForDay(cell) : 'transparent' }}
-          >
-            {cell && <span>{cell}</span>}
-          </div>
-        ))}
+      <div className="calendar-container">
+        {/* Cabecera de días de la semana separada */}
+        <div className="day-header">
+          {['D', 'L', 'M', 'M', 'J', 'V', 'S'].map((s, idx) => (
+            <div key={idx} className="dow">
+              {s}
+            </div>
+          ))}
+        </div>
+        
+        {/* Rejilla de días por semanas */}
+        <div className="weeks-container">
+          {weeks.map((week, weekIdx) => (
+            <div key={weekIdx} className="week-row">
+              {week.map((day, dayIdx) => (
+                <div
+                  key={dayIdx}
+                  className="day-cell"
+                  style={{ backgroundColor: day ? getColorForDay(day) : 'transparent' }}
+                >
+                  {day && <span>{day}</span>}
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )
