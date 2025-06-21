@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
   <inicioMes>8</inicioMes> <!-- agosto = 8 -->
-  <inicioAnio>2024</inicioAnio>
+  <inicioAnio>2025</inicioAnio>
   <version>1.0</version>
   <fechaEmision>2025-06-19</fechaEmision>
 </config>

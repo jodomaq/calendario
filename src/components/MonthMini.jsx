@@ -34,13 +34,16 @@ export default function MonthMini({ monthIndex, year, activities, onClick }) {
     }
   }
 
-  console.log(cells)
-  
   function getColorForDay(day) {
     const date = new Date(year, monthIndex, day)
     const evt = activities.find(
       (a) => a.startDate <= date && a.endDate >= date,
     )
+    console.log(evt)
+    console.log(evt?.startDate.toLocaleDateString('en-CA'))
+    if (evt?.startDate && evt.startDate.toLocaleDateString('en-CA') === '2025-08-18') {
+      console.log(evt)
+    }
     return evt?.color || 'transparent'
   }
 
