@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { format } from 'date-fns'
 import { es } from 'date-fns/locale'
 import { useCalendar } from '../context/CalendarContext.jsx'
@@ -8,6 +8,8 @@ import MonthMini from './MonthMini.jsx'
 
 export default function AnnualCalendar() {
   const { config, activities, loading, error, setView } = useCalendar()
+  // Estado para manejar la actividad sobre la que se pasa el ratón
+  const [hoveredActivity, setHoveredActivity] = useState(null)
   
   // Referencia para exportar a PDF
   const calendarRef = React.useRef(null)
@@ -33,8 +35,8 @@ export default function AnnualCalendar() {
   })
 
   return (
-    <div className="annual-container">
-      <div className="annual-wrapper" ref={calendarRef}>
+    <div className="annual-container" ref={calendarRef}>
+      <div className="annual-wrapper">
         <header className="annual-header">
           <h1>Calendario escolar {config.startYear}-{config.startYear + 1}</h1>
           <div className="header-actions">
@@ -51,6 +53,7 @@ export default function AnnualCalendar() {
               monthIndex={monthIndex}
               year={year}
               activities={activities}
+              hoveredActivity={hoveredActivity}
               label={format(new Date(year, monthIndex, 1), 'MMMM yyyy', { locale: es })}
               onClick={() => setView({ type: 'month', year, month: monthIndex })}
             />
@@ -70,7 +73,14 @@ export default function AnnualCalendar() {
                 className="legend-color" 
                 style={{ backgroundColor: activity.color }}
               ></div>
-              <div className="legend-text">{activity.title}</div>
+              <div 
+                className="legend-text" 
+                onMouseEnter={() => setHoveredActivity(activity)}
+                onMouseLeave={() => setHoveredActivity(null)}
+                title={`${activity.startDate.toLocaleDateString('es-MX')} - ${activity.endDate.toLocaleDateString('es-MX')} - ${activity.title}`}
+              >
+                {activity.title}
+              </div>
             </div>
           ))}
         </div>

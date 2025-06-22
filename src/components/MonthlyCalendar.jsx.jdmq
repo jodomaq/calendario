@@ -186,11 +186,7 @@ export default function MonthlyCalendar() {
             <div className="legend-section">
               <h4>Actividades mensuales</h4>
               {monthlyActivities.map((activity, index) => (
-                <div 
-                  className="legend-item" 
-                  key={`monthly-${index}`}
-                  onClick={() => setSelectedActivity(activity)}
-                >
+                <div className="legend-item" key={`monthly-${index}`}>
                   <div 
                     className="legend-color" 
                     style={{ backgroundColor: activity.color }}
@@ -204,14 +200,6 @@ export default function MonthlyCalendar() {
           )}
         </div>
       </div>
-
-      {/* Popup de detalles de actividad */}
-      {selectedActivity && (
-        <ActivityPopup 
-          activity={selectedActivity}
-          onClose={() => setSelectedActivity(null)}
-        />
-      )}
     </div>
   )
 }

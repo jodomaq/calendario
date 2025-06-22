@@ -1,10 +1,29 @@
 <!doctype html>
-<html lang="en">
+<html lang="es-MX">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Calendario escolar</title>
+    <script>
+      // Configurar localización global para JavaScript
+      if (typeof Intl !== 'undefined') {
+        // Establecer configuración regional por defecto
+        window.LOCALE = 'es-MX';
+        
+        // Configurar Date.prototype.toLocaleDateString por defecto
+        const originalToLocaleDateString = Date.prototype.toLocaleDateString;
+        Date.prototype.toLocaleDateString = function(locales = 'es-MX', options) {
+          return originalToLocaleDateString.call(this, locales, options);
+        };
+        
+        // Configurar Date.prototype.toLocaleString por defecto
+        const originalToLocaleString = Date.prototype.toLocaleString;
+        Date.prototype.toLocaleString = function(locales = 'es-MX', options) {
+          return originalToLocaleString.call(this, locales, options);
+        };
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

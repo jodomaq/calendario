@@ -6,10 +6,12 @@ const CalendarContext = createContext()
 export function CalendarProvider({ children }) {
   const [config, setConfig] = useState(null)
   const [activities, setActivities] = useState([])
+  const [monthlyActivities, setMonthlyActivities] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [view, setView] = useState({ type: 'annual', year: null, month: null })
 
+  // Carga datos globales (configuración y actividades anuales)
   useEffect(() => {
     async function loadData() {
       try {
@@ -27,9 +29,27 @@ export function CalendarProvider({ children }) {
     loadData()
   }, [])
 
+  // Carga actividades mensuales cuando cambia la vista a un mes específico
+  useEffect(() => {
+    async function loadMonthlyActivities() {
+      if (view.type === 'month' && view.year && view.month !== undefined) {
+        try {
+          // Meses en JavaScript son 0-indexed pero en nuestro CSV son 1-indexed
+          const monthNumber = view.month + 1
+          const acts = await CalendarService.loadMonthlyActivitiesForMonth(monthNumber, view.year)
+          setMonthlyActivities(acts)
+        } catch (e) {
+          console.error('Error al cargar actividades mensuales', e)
+        }
+      }
+    }
+    loadMonthlyActivities()
+  }, [view.type, view.year, view.month])
+
   const value = {
     config,
     activities,
+    monthlyActivities,
     loading,
     error,
     view,

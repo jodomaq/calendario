@@ -1,6 +1,6 @@
 import { getDaysInMonth, getDay } from 'date-fns'
 
-export default function MonthMini({ monthIndex, year, activities, onClick }) {
+export default function MonthMini({ monthIndex, year, activities, hoveredActivity, onClick }) {
   const firstDate = new Date(year, monthIndex, 1)
   const daysInMonth = getDaysInMonth(firstDate)
   const startWeekDay = getDay(firstDate) // 0 (Sun) – 6 (Sat)
@@ -39,12 +39,15 @@ export default function MonthMini({ monthIndex, year, activities, onClick }) {
     const evt = activities.find(
       (a) => a.startDate <= date && a.endDate >= date,
     )
-    console.log(evt)
-    console.log(evt?.startDate.toLocaleDateString('en-CA'))
-    if (evt?.startDate && evt.startDate.toLocaleDateString('en-CA') === '2025-08-18') {
-      console.log(evt)
-    }
     return evt?.color || 'transparent'
+  }
+  
+  // Función para determinar si un día coincide con la actividad sobre la que se pasa el ratón
+  function isMatchingDay(day, activity) {
+    if (!activity) return false
+    
+    const date = new Date(year, monthIndex, day)
+    return activity.startDate <= date && activity.endDate >= date
   }
 
   // Organizar las celdas en filas para mejor control
@@ -87,7 +90,13 @@ export default function MonthMini({ monthIndex, year, activities, onClick }) {
                 <div
                   key={dayIdx}
                   className="day-cell"
-                  style={{ backgroundColor: day ? getColorForDay(day) : 'transparent' }}
+                  style={{
+                    backgroundColor: day ? getColorForDay(day) : 'transparent',
+                    transform: day && hoveredActivity && isMatchingDay(day, hoveredActivity) ? 'scale(1.2)' : 'scale(1)',
+                    transition: 'transform 0.2s ease-in-out',
+                    zIndex: day && hoveredActivity && isMatchingDay(day, hoveredActivity) ? '5' : '1',
+                    boxShadow: day && hoveredActivity && isMatchingDay(day, hoveredActivity) ? '0 0 3px rgba(0,0,0,0.3)' : 'none'
+                  }}
                 >
                   {day && <span>{day}</span>}
                 </div>

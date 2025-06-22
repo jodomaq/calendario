@@ -2,6 +2,7 @@ import Papa from 'papaparse'
 import { xml2js } from 'xml-js'
 import Activity from '../models/Activity.js'
 import CalendarConfig from '../models/CalendarConfig.js'
+import MonthlyActivity from '../models/MonthlyActivity.js'
 
 export default class CalendarService {
   /**
@@ -48,5 +49,36 @@ export default class CalendarService {
     // descarta cabecera si existe
     const rows = data.filter((r) => r.length >= 4 && !r[0].toLowerCase().includes('fecha'))
     return rows.map(Activity.fromArray)
+  }
+  
+  /**
+   * Carga actividades mensuales desde un CSV
+   * @param {string} path ruta del CSV (relativa al public/)
+   * @returns {Promise<MonthlyActivity[]>}
+   */
+  static async loadMonthlyActivities(path = '/data/monthlyActivities.csv') {
+    try {
+      const res = await fetch(path)
+      if (!res.ok) return []
+      const csvText = await res.text()
+      const { data } = Papa.parse(csvText, { skipEmptyLines: true })
+      // descarta cabecera si existe
+      const rows = data.filter((r) => r.length >= 5 && !r[0].toLowerCase().includes('fecha'))
+      return rows.map(MonthlyActivity.fromArray)
+    } catch (error) {
+      console.error("Error al cargar actividades mensuales:", error)
+      return [] // Devuelve un array vacío en caso de error
+    }
+  }
+  
+  /**
+   * Carga actividades mensuales específicas para un mes y año
+   * @param {number} month - Mes (1-12)
+   * @param {number} year - Año
+   * @returns {Promise<MonthlyActivity[]>}
+   */
+  static async loadMonthlyActivitiesForMonth(month, year) {
+    const allActivities = await this.loadMonthlyActivities()
+    return allActivities.filter(act => act.month === month && act.year === year)
   }
 }

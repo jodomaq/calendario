@@ -1,33 +1,39 @@
 fecha_inicio,fecha_fin,actividad,color
-2025-08-18,2025-08-18,18-ago Inscripciones y reinscripciones,#0ba14b
-2025-08-18,2025-08-18,Inscripciones y reinscripciones,#0ba14b
-2025-08-12,2025-08-16,Inicio de Semestre,#ff6900
-2025-09-16,2025-09-16,Suspensión de labores docentes,#636566
-2025-10-07,2025-10-11,Primer parcial,#0ba14b
-2025-11-02,2025-11-02,Segundo Parcial,#ff6900
-2025-11-20,2025-11-20,Suspensión de labores docentes,#636566
-2025-12-02,2025-12-13,Tercer parcial,#0ba14b
-2025-12-17,2025-12-17,Curso de recuperación (R1),#ff6900
-2025-12-20,2025-01-06,Suspensión de labores docentes,#636566
-2025-01-13,2025-01-17,Vacaciones,#0ba14b
-2025-02-05,2025-02-05,Inicio de Actividades,#636566
-2025-03-03,2025-03-13,Periodo Extraordinario (Regularización y Cursos Intersemestrales),#0ba14b
-2025-03-21,2025-03-21,Fin de semestre,#636566
-2025-04-07,2025-04-18,"Formación, planeación docente y academias",#ff6900
-2025-05-01,2025-05-01,Periodo de reinscripciones,#636566
-2025-05-15,2025-05-15,Suspensión de labores docentes,#0ba14b
-2025-05-26,2025-06-06,Inicio de Semestre,#0ba14b
-2025-06-13,2025-06-13,Primer parcial,#ff6900
-2025-06-30,2025-07-11,Suspensión de labores docentes,#0ba14b
-2025-06-30,2025-07-11,Vacaciones,#0ba14b
-2025-06-30,2025-07-11,Inicio de Actividades,#0ba14b
-2025-06-30,2025-07-11,Suspensión de labores docentes,#0ba14b
-2025-06-30,2025-07-11,Segundo parcial,#0ba14b
-2025-06-30,2025-07-11,Tercer parcial 6 semestre,#0ba14b
-2025-06-30,2025-07-11,Curso de recuperación (R1) 6 sem,#0ba14b
-2025-06-30,2025-07-11,Tercer parcial 2 y 4 semestre,#0ba14b
-2025-06-30,2025-07-11,Curso de recuperación (R1)  2 y 4 sem,#0ba14b
-2025-06-30,2025-07-11,"Periodo Extraordinario (Recuperación, Regularización y Cursos Intersemestrales)",#0ba14b
-2025-06-30,2025-07-11,Proceso de nuevo ingreso (evaluación y curso propedéutico COSFAC),#0ba14b
-2025-06-30,2025-07-11,Clausuras,#0ba14b
-2025-06-30,2025-07-11,Fin de semestre,#0ba14b
+2025-08-18,2025-08-18,Inicio de Actividades,#4287f5
+2025-08-18,2025-08-29,Inscripciones y reinscripciones,#9c27b0
+2025-09-01,2025-09-01,Inicio de Semestre,#4287f5
+2025-09-16,2025-09-16,Conmemoración Independencia,#e53935
+2025-10-01,2025-10-03,Primer parcial,#ff9800
+2025-11-03,2025-11-05,Segundo Parcial,#ff9800
+2025-11-17,2025-11-17,Conmemoración Revolución,#e53935
+2025-12-16,2025-12-18,Tercer parcial,#ff9800
+2025-12-19,2026-01-05,Vacaciones,#009688
+2025-12-25,2025-12-25,Suspensión de labores,#607d8b
+2026-01-01,2026-01-01,Suspensión de labores,#607d8b
+2026-01-06,2026-01-06,Suspensión de labores,#607d8b
+2026-01-07,2026-01-07,Inicio de Actividades,#4287f5
+2026-01-23,2026-01-23,Fin de semestre,#795548
+2026-01-07,2026-01-09,Curso de recuperación (R1),#8bc34a
+2026-01-12,2026-01-23,"Periodo Extraordinario (Regularización y Cursos Intersemestrales)",#8bc34a
+2026-01-26,2026-01-30,Periodo de reinscripciones,#9c27b0
+2026-01-07,2026-01-30,"Formación, planeación docente y academias",#673ab7
+2026-02-02,2026-02-02,Día de la Constitución Política,#e53935
+2026-02-03,2026-02-03,Inicio de Semestre,#4287f5
+2026-03-04,2026-03-06,Primer parcial,#ff9800
+2026-03-16,2026-03-16,Conmemoración natalicio Benito Juárez,#e53935
+2026-03-30,2026-04-10,Vacaciones,#009688
+2026-04-13,2026-04-13,Inicio de Actividades,#4287f5
+2026-05-01,2026-05-01,"Día del trabajo",#e53935
+2026-05-05,2026-05-05,"Batalla de Puebla",#e53935
+2026-05-15,2026-05-15,"Día del Trabajador CECYTEM",#e53935
+2026-04-28,2026-04-30,Segundo parcial,#ff9800
+2026-06-01,2026-06-03,Tercer parcial 6 semestre,#ff9800
+2026-06-12,2026-06-12,Fin de semestre 6 semestre,#4287f5
+2026-06-04,2026-06-05,Curso de recuperación (R1) 6 sem,#8bc34a
+2026-06-08,2026-06-12,Periodo Extraordinario (Regularización y CI) 6 sem,#8bc34a
+2026-06-15,2026-06-17,Tercer parcial 2 y 4 semestre,#ff9800
+2026-06-18,2026-06-19,Curso de recuperación (R1) 2 y 4 sem,#8bc34a
+2026-06-22,2026-07-03,"Periodo Extraordinario (Regularización y Cursos Intersemestrales) 2 y 4 sem",#8bc34a
+2026-07-17,2026-07-17,Fin de semestre 2 y 4 semestre,#4287f5
+2026-07-13,2026-07-17,Clausuras,#795548
+2026-07-06,2026-07-17,"Proceso de nuevo ingreso (evaluación y curso propedéutico COSFAC)",#673ab7
