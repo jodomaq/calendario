@@ -177,9 +177,6 @@ export default function MonthlyCalendar() {
 
       {/* Lista de actividades con colores (Leyenda) */}
       <div className="activities-legend">
-        <div className="legend-header">
-          <h3>Actividades</h3>
-        </div>
         <div className="legend-items">
           {/* Actividades mensuales */}
           {monthlyActivities.length > 0 && (
@@ -196,7 +193,7 @@ export default function MonthlyCalendar() {
                     style={{ backgroundColor: activity.color }}
                   ></div>
                   <div className="legend-text" title={activity.description}>
-                    {activity.title}
+                    {new Date(activity.date).toLocaleDateString('es-MX')} - {activity.title}
                   </div>
                 </div>
               ))}

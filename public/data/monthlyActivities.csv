@@ -1,15 +1,122 @@
 fecha,titulo,descripcion,color,mes,año
 2025-08-18,Inicio de Semestre,Agosto 2025 - Enero 2026,#4287f5,8,2025
-2025-08-18,Inscripciones 2025-08-18 y reinscripciones alumnos regulares al semestre,Inscripciones 2025-08-18 y reinscripciones alumnos regulares al semestre,#9c27b0,8,2025
-2025-08-19,Inscripciones 2025-08-19 y reinscripciones alumnos regulares al semestre,Inscripciones 2025-08-19 y reinscripciones alumnos regulares al semestre,#9c27b0,8,2025
-2025-08-20,Inscripciones 2025-08-20 y reinscripciones alumnos regulares al semestre,Inscripciones 2025-08-20 y reinscripciones alumnos regulares al semestre,#9c27b0,8,2025
-2025-08-21,Inscripciones 2025-08-21 y reinscripciones alumnos regulares al semestre,Inscripciones 2025-08-21 y reinscripciones alumnos regulares al semestre,#9c27b0,8,2025
-2025-08-22,Inscripciones 2025-08-22 y reinscripciones alumnos regulares al semestre,Inscripciones 2025-08-22 y reinscripciones alumnos regulares al semestre,#9c27b0,8,2025
-2025-08-25,Inscripciones 2025-08-25 y reinscripciones de alumnos irregulares al semestre,Inscripciones 2025-08-25 y reinscripciones de alumnos irregulares al semestre,#9c27b0,8,2025
-2025-08-26,Inscripciones 2025-08-26 y reinscripciones de alumnos irregulares al semestre,Inscripciones 2025-08-26 y reinscripciones de alumnos irregulares al semestre,#9c27b0,8,2025
-2025-08-27,Inscripciones 2025-08-27 y reinscripciones de alumnos irregulares al semestre,Inscripciones 2025-08-27 y reinscripciones de alumnos irregulares al semestre,#9c27b0,8,2025
-2025-08-28,Inscripciones 2025-08-28 y reinscripciones de alumnos irregulares al semestre,Inscripciones 2025-08-28 y reinscripciones de alumnos irregulares al semestre,#9c27b0,8,2025
-2025-08-29,Inscripciones 2025-08-29 y reinscripciones de alumnos irregulares al semestre,Inscripciones 2025-08-29 y reinscripciones de alumnos irregulares al semestre,#9c27b0,8,2025
+2025-08-18,Inscripciones y reinscripciones alumnos regulares,Inscripciones y reinscripciones alumnos regulares,#9c27b0,8,2025
+2025-08-19,Inscripciones y reinscripciones alumnos regulares,Inscripciones y reinscripciones alumnos regulares,#9c27b0,8,2025
+2025-08-20,Inscripciones y reinscripciones alumnos regulares,Inscripciones y reinscripciones alumnos regulares,#9c27b0,8,2025
+2025-08-21,Inscripciones y reinscripciones alumnos regulares,Inscripciones y reinscripciones alumnos regulares,#9c27b0,8,2025
+2025-08-22,Inscripciones y reinscripciones alumnos regulares,Inscripciones y reinscripciones alumnos regulares,#9c27b0,8,2025
+2025-08-25,Inscripciones y reinscripciones de alumnos irregulares,Inscripciones y reinscripciones de alumnos irregulares,#9c27b0,8,2025
+2025-08-26,Inscripciones y reinscripciones de alumnos irregulares,Inscripciones y reinscripciones de alumnos irregulares,#9c27b0,8,2025
+2025-08-27,Inscripciones y reinscripciones de alumnos irregulares,Inscripciones y reinscripciones de alumnos irregulares,#9c27b0,8,2025
+2025-08-28,Inscripciones y reinscripciones de alumnos irregulares,Inscripciones y reinscripciones de alumnos irregulares,#9c27b0,8,2025
+2025-08-29,Inscripciones y reinscripciones de alumnos irregulares,Inscripciones y reinscripciones de alumnos irregulares,#9c27b0,8,2025
+2025-09-01,Inicio de semestre,Inicio de semestre Ago'25 - Enero'26,#4287f5,9,2025
+2025-09-16,Conmemoración Independencia,Conmemoración Independencia (Suspensión de labores),#ff6900,9,2025
+2025-09-18,Entrega de información,"Actualización de los datos de  inscritos y reinscritos en la plataforma de SAEKO, solicitud de credenciales, actas de calificaciones finales e indicadores institucionales del semestre febrero-julio 2025, expedientes digitales de nuevo ingreso, bajas temporales y definitivas",#0ba14b,9,2025
+2025-09-19,Entrega de información,"Actualización de los datos de  inscritos y reinscritos en la plataforma de SAEKO, solicitud de credenciales, actas de calificaciones finales e indicadores institucionales del semestre febrero-julio 2025, expedientes digitales de nuevo ingreso, bajas temporales y definitivas",#0ba14b,9,2025
+2025-09-19,Entrega de informes CEMSAD,"Entrega del 1er informe trimestral (julio-septiembre) de caja de herramientas yo no abandono, círculo de lecturas y el 3er informe trimestral de actividades",#8e44ad,9,2025
+2025-09-22,Altas y bajas de alumnos del IMSS,"Envío de evidencia de las altas y bajas de estudiantes al seguro facultativo",#cb4335,9,2025
+2025-09-23,Altas y bajas de alumnos del IMSS,"Envío de evidencia de las altas y bajas de estudiantes al seguro facultativo",#cb4335,9,2025
+2025-09-24,Altas y bajas de alumnos del IMSS,"Envío de evidencia de las altas y bajas de estudiantes al seguro facultativo",#cb4335,9,2025
+2025-09-25,Altas y bajas de alumnos del IMSS,"Envío de evidencia de las altas y bajas de estudiantes al seguro facultativo",#cb4335,9,2025
+2025-09-26,Altas y bajas de alumnos del IMSS,"Envío de evidencia de las altas y bajas de estudiantes al seguro facultativo",#cb4335,9,2025
+2025-10-01,Primer parcial,Inicia aplicación de primera evaluación parcial,#b7950b,10,2025
+2025-10-02,Primer parcial,Primera evaluación parcial,#b7950b,10,2025
+2025-10-03,Primer parcial,Termina aplicación de primera evaluación parcial,#b7950b,10,2025
+2025-10-06,Entrega de informes CEMSAD,"Entrega del 1er informe de alumnos a distancia, proyectos de HFA, HC y/o talleres",#8e44ad,10,2025
+2025-10-07,Detección de estudiantes con problemas académicos,"Derivado de los resultados del primer parcial, la academia deberá generar estrategias de recuperación",#b7950b,10,2025
+2025-10-08,Detección de estudiantes con problemas académicos,"Derivado de los resultados del primer parcial, la academia deberá generar estrategias de recuperación",#b7950b,10,2025
+2025-10-09,Entrega de información,Entrega de información a la Dirección de Planeación: Archivo digital de los certificados de terminación de estudios entregados a los egresados de la generación 2022 - 2025,#797d7f,10,2025
+2025-10-10,Entrega de información,Entrega de información a la Dirección de Planeación: Archivo digital de los certificados de terminación de estudios entregados a los egresados de la generación 2022 - 2025,#797d7f,10,2025
+2025-10-06,Inicia captura de calificaciones,Inicia la captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-10-07,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-10-08,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-10-09,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-10-10,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-10-13,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-10-14,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-10-15,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-10-16,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-10-17,Termina captura de calificaciones,Termina la captura de calificaciones de primer parcial por personal docente,#0ba14b,10,2025
+2025-11-03,Segundo parcial,Inicia la aplicación de la segunda evaluación parcial,#b7950b,11,2025
+2025-11-04,Segundo parcial,Aplicación de la segunda evaluación parcial,#b7950b,11,2025
+2025-11-05,Segundo parcial,Termina la aplicación de la segunda evaluación parcial,#b7950b,11,2025
+2025-11-11,Detección de estudiantes con problemas académicos,"Derivado de los resultados del segundo parcial, la academia deberá generar estrategias de recuperación",#b7950b,11,2025
+2025-11-12,Detección de estudiantes con problemas académicos,"Derivado de los resultados del segundo parcial, la academia deberá generar estrategias de recuperación",#b7950b,11,2025
+2025-11-10,Inicia captura de calificaciones,Inicia la captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-11-11,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-11-12,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-11-13,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-11-14,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-11-17,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-11-18,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-11-19,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-11-20,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-11-21,Termina captura de calificaciones,Termina la captura de calificaciones de segundo parcial por personal docente,#0ba14b,11,2025
+2025-12-01,Entrega de informes CEMSAD,"Entrega de informe final de alumnos a distancia, proyectos de HFA, HC y/o talleres.",#8e44ad,12,2025
+2025-12-08,Entrega de informes CEMSAD,"Entrega de ECA's, horarios y solicitud de proyectos HFA y/o talleres semestre Feb-Jul 2026, el 2do informe trimestral (octubre-diciembre) de caja de herramientas yo no abandono, círculo de lecturas y 4to informe trimestral de actividades.",#8e44ad,12,2025
+2025-12-11,Entrega expedientes digitales,Segunda entrega de expedientes digitales completos de nuevo ingreso gen 2025-2028,#797d7f,12,2025
+2025-12-12,Entrega expedientes digitales,Segunda entrega de expedientes digitales completos de nuevo ingreso gen 2025-2028,#797d7f,12,2025
+2025-12-16,Tercer parcial,Inicia la aplicación de la tercera evaluación parcial,#b7950b,12,2025
+2025-12-17,Tercer parcial,Aplicación de la tercera evaluación parcial,#b7950b,12,2025
+2025-12-18,Tercer parcial,Termina la aplicación de la tercera evaluación parcial,#b7950b,12,2025
+2025-12-16,Evaluaciones a TS,Inicia la aplicación de evaluaciones a Título de Suficiencia de alumnos que arrastraron asignaturas el semestre febrero - julio 2025,#b7950b,12,2025
+2025-12-17,Evaluaciones a TS,Aplicación de evaluaciones a Título de Suficiencia de alumnos que arrastraron asignaturas el semestre febrero - julio 2025,#b7950b,12,2025
+2025-12-18,Evaluaciones a TS,Termina la aplicación de evaluaciones a Título de Suficiencia de alumnos que arrastraron asignaturas el semestre febrero - julio 2025,#b7950b,12,2025
+2025-12-19,Vacaciones,Inicia periodo vacacional de diciembre,#117a65,12,2025
+2025-12-20,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-21,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-22,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-23,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-24,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-25,Suspensión,Suspensión de labores,#ff6900,12,2025
+2025-12-25,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-26,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-27,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-28,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-29,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-30,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2025-12-31,Vacaciones,Continua periodo vacacional de diciembre,#117a65,12,2025
+2026-01-01,Suspensión,Suspensión de labores,#ff6900,1,2026
+2026-01-01,Vacaciones,Continua periodo vacacional de diciembre,#117a65,1,2026
+2026-01-02,Vacaciones,Continua periodo vacacional de diciembre,#117a65,1,2026
+2026-01-05,Vacaciones,Termina periodo vacacional de diciembre,#117a65,1,2026
+2026-01-06,Suspensión,Suspensión de labores,#ff6900,1,2026
+2026-01-07,Inicio de actividades,Inicio de actividades académicas,#4287f5,01,2026
+2026-01-07,Recuperación R1,Inicia periodo de recuperación R1,#b7950b,01,2026
+2026-01-08,Recuperación R1,Periodo de recuperación R1,#b7950b,01,2026
+2026-01-09,Recuperación R1,Termina periodo de recuperación R1,#b7950b,01,2026
+2026-01-12,Periodo extraordinario,Inicia periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-13,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-14,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-15,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-16,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-19,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-20,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-21,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-22,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-23,Periodo extraordinario,Termina periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,01,2026
+2026-01-23,Fin de Semestre,Agosto 2025 - Enero 2026,#4287f5,1,2026
+2026-01-12,Inicia captura calificaciones, Captura de tercer parcial y Recuperación R1,#0b0daf,1,2026
+2026-01-13,Captura calificaciones, Captura de tercer parcial y Recuperación R1,#0b0daf,1,2026
+2026-01-14,Captura calificaciones, Captura de tercer parcial y Recuperación R1,#0b0daf,1,2026
+2026-01-15,Captura calificaciones, Captura de tercer parcial y Recuperación R1,#0b0daf,1,2026
+2026-01-16,Termina Captura calificaciones, Captura de tercer parcial y Recuperación R1,#0b0daf,1,2026
+2026-01-19,Inicia captura calificaciones, Captura de periodo extraordinario,#0b0daf,1,2026
+2026-01-20,Captura calificaciones, Captura de periodo extraordinario,#0b0daf,1,2026
+2026-01-21,Captura calificaciones, Captura de periodo extraordinario,#0b0daf,1,2026
+2026-01-22,Captura calificaciones, Captura de periodo extraordinario,#0b0daf,1,2026
+2026-01-23,Termina Captura calificaciones, Captura de periodo extraordinario,#0b0daf,1,2026
+2026-01-26,Reinscripciones,Inicia periodo de reinscripciones para el semestre Febrero - Julio 2026,#9c27b0,1,2026
+2026-01-27,Reinscripciones,Continua periodo de reinscripciones para el semestre Febrero - Julio 2026,#9c27b0,1,2026
+2026-01-28,Reinscripciones,Continua periodo de reinscripciones para el semestre Febrero - Julio 2026,#9c27b0,1,2026
+2026-01-29,Reinscripciones,Continua periodo de reinscripciones para el semestre Febrero - Julio 2026,#9c27b0,1,2026
+2026-01-30,Reinscripciones,Termina periodo de reinscripciones para el semestre Febrero - Julio 2026,#9c27b0,1,2026
+2026-02-02,Conmemoración de la constitución, Conmemoración de la Constitución Política de los Estados Unidos Mexicanos,#ff6900,2,2026
+2026-02-03,Inicio de Semestre,Febrero - Julio 2026,#4287f5,2,2026
+2026-02-25,Entrega de información,"Actas finales, expedientes, solicitud de credenciales, bajas, indicadores, actas de comités de calidad",#797d7f,2,2026
+2026-02-26,Entrega de información,"Actas finales, expedientes, solicitud de credenciales, bajas, indicadores, actas de comités de calidad",#797d7f,2,2026
+2026-02-27,Actualización reinscritos,Actualización de reinscritos en plataforma,#797d7f,2,2026
 
 2026-02-10,Entrega de documentos,Entrega de documentos del primer parcial,#0ba14b,2,2026
 2026-02-15,Reunión departamental,Reunión de docentes por departamento,#ff6900,2,2026

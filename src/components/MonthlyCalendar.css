@@ -115,6 +115,7 @@
   flex-direction: column;
   gap: 0.25rem;
   max-width: 100px;
+  cursor: pointer;
 }
 
 .activity-item {
@@ -176,6 +177,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  cursor: pointer;
 }
 
 .legend-color {
