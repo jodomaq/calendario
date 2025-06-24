@@ -117,14 +117,108 @@ fecha,titulo,descripcion,color,mes,año
 2026-02-25,Entrega de información,"Actas finales, expedientes, solicitud de credenciales, bajas, indicadores, actas de comités de calidad",#797d7f,2,2026
 2026-02-26,Entrega de información,"Actas finales, expedientes, solicitud de credenciales, bajas, indicadores, actas de comités de calidad",#797d7f,2,2026
 2026-02-27,Actualización reinscritos,Actualización de reinscritos en plataforma,#797d7f,2,2026
-
-2026-02-10,Entrega de documentos,Entrega de documentos del primer parcial,#0ba14b,2,2026
-2026-02-15,Reunión departamental,Reunión de docentes por departamento,#ff6900,2,2026
-2026-03-01,Planeación mensual,Entrega de planeación mensual de marzo,#0ba14b,3,2026
-2026-03-18,Visita empresarial,Visita a empresa local para estudiantes de 6º,#ff6900,3,2026
-2026-04-05,Junta académica,Revisión de avances del primer parcial,#636566,4,2026
-2026-04-20,Entrega de calificaciones,Captura de calificaciones en sistema,#0ba14b,4,2026
-2026-05-08,Día de las madres,Conmemoración del día de las madres,#ff6900,5,2026
-2026-05-15,Proyecto integrador,Inicio de proyecto integrador,#0ba14b,5,2026
-2026-06-01,Evaluación docente,Periodo de evaluación docente,#636566,6,2026
-2026-06-20,Cierre administrativo,Entrega de documentación administrativa final,#0ba14b,6,2026
+2026-03-02,Promoción institucional,Inicia promoción institucional,#00dfc4,3,2026
+2026-03-04,Primer parcial,Inicia aplicación de primera evaluación parcial,#b7950b,3,2026
+2026-03-05,Primer parcial,Primera evaluación parcial,#b7950b,3,2026
+2026-03-06,Primer parcial,Termina aplicación de primera evaluación parcial,#b7950b,3,2026
+2026-03-16,Conmemoración del natalicia de Benito Juárez, Conmemoración del natalicia de Benito Juárez,#ff6900,3,2026
+2026-03-11,Detección de estudiantes con problemas académicos,"Derivado de los resultados del primer parcial, la academia deberá generar estrategias de recuperación",#b7950b,3,2026
+2026-03-12,Detección de estudiantes con problemas académicos,"Derivado de los resultados del primer parcial, la academia deberá generar estrategias de recuperación",#b7950b,3,2026
+2026-03-09,Inicia captura de calificaciones,Inicia la captura de calificaciones de primer parcial por personal docente,#0ba14b,3,2026
+2026-03-10,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,3,2026
+2026-03-11,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,3,2026
+2026-03-12,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,3,2026
+2026-03-13,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,3,2026
+2026-03-17,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,3,2026
+2026-03-18,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,3,2026
+2026-03-19,Captura de calificaciones,Captura de calificaciones de primer parcial por personal docente,#0ba14b,3,2026
+2026-03-20,Termina captura de calificaciones,Termina la captura de calificaciones de primer parcial por personal docente,#0ba14b,3,2026
+2026-03-23,Inicia revisión, Inicia revisión de calificaciones hasta 5to semestre de los alumnos próximos a egresar,#0ba14b,3,2026
+2026-03-27,Entrega de informes CEMSAD,"Entrega el 1er informe de alumnos a distancia, proyectos de HFA, HC y/o talleres.",#8e44ad,3,2026
+2026-03-30,Vacaciones,Inicia periodo vacacional de semana santa,#117a65,3,2026
+2026-03-31,Vacaciones,Continua periodo vacacional de diciembre,#117a65,3,2026
+2026-04-01,Vacaciones,Continua periodo vacacional de diciembre,#117a65,4,2026
+2026-04-02,Vacaciones,Continua periodo vacacional de diciembre,#117a65,4,2026
+2026-04-03,Vacaciones,Continua periodo vacacional de diciembre,#117a65,4,2026
+2026-04-06,Vacaciones,Continua periodo vacacional de diciembre,#117a65,4,2026
+2026-04-07,Vacaciones,Continua periodo vacacional de diciembre,#117a65,4,2026
+2026-04-08,Vacaciones,Continua periodo vacacional de diciembre,#117a65,4,2026
+2026-04-09,Vacaciones,Continua periodo vacacional de diciembre,#117a65,4,2026
+2026-04-10,Vacaciones,Termina periodo vacacional de diciembre,#117a65,4,2026
+2026-05-25,Termina revisión,Concluye revisión de calificaciones hasta 5to semestre de los alumnos próximos a egresar,#0ba14b,5,2026
+2026-04-13,Inicio de actividades,Inicio de actividades académicas,#4287f5,4,2026
+2026-04-13,Entrega de fichas,Inicia entrega de fichas de nuevo ingreso gen 2026-2029,#4a81f7,4,2026
+2026-04-28,Segundo parcial,Inicia la aplicación de la segunda evaluación parcial,#b7950b,4,2026
+2026-04-29,Segundo parcial,Aplicación de la segunda evaluación parcial,#b7950b,4,2026
+2026-04-30,Segundo parcial,Termina la aplicación de la segunda evaluación parcial,#b7950b,4,2026
+2026-05-01,Día del trabajo,Día del trabajo,#ff6900,5,2026
+2026-05-01,Día de la batalla de Puebla,Conmemoración del día de la batalla de Puebla,#ff6900,5,2026
+2026-05-11,Detección de estudiantes con problemas académicos,"Derivado de los resultados del segundo parcial, la academia deberá generar estrategias de recuperación",#b7950b,5,2026
+2026-05-12,Detección de estudiantes con problemas académicos,"Derivado de los resultados del segundo parcial, la academia deberá generar estrategias de recuperación",#b7950b,5,2026
+2026-05-06,Inicia captura de calificaciones,Inicia la captura de calificaciones de segundo parcial por personal docente,#0ba14b,5,2026
+2026-05-07,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,5,2026
+2026-05-08,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,5,2026
+2026-05-11,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,5,2026
+2026-05-12,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,5,2026
+2026-05-13,Captura de calificaciones,Captura de calificaciones de segundo parcial por personal docente,#0ba14b,5,2026
+2026-05-14,Termina captura de calificaciones,Termina la captura de calificaciones de segundo parcial por personal docente,#0ba14b,5,2026
+2026-05-15,Día del trabajador CECYTEM,Conmemoración del día del trabajador CECYTEM,#ff6900,5,2026
+2026-06-01,Tercer parcial sextos,Inicia la aplicación de la tercera evaluación parcial sextos semestres y aplicación de TS para sextos semestres,#b7950b,6,2026
+2026-06-02,Tercer parcial sextos,Aplicación de la tercera evaluación parcial sextos semestres y aplicación de TS para sextos semestres,#b7950b,6,2026
+2026-06-03,Tercer parcial sextos,Termina la aplicación de la tercera evaluación parcial sextos semestres y aplicación de TS para sextos semestres,#b7950b,6,2026
+2026-06-04,Curso de recuperación (R1) 6 sem,Curso de Recuperación del Periodo Ordinario (R1)  sexto semestre,#8bc34a,6,2026
+2026-06-05,Curso de recuperación (R1) 6 sem,Curso de Recuperación del Periodo Ordinario (R1)  sexto semestre,#8bc34a,6,2026
+2026-06-12,Fin semestre sextos, Fin de semestre para sexto semestre,#4287f5,6,2026
+2026-06-08,Inicia captura de calificaciones sexto,Inicia Captura de calificaciones de tercer parcial sexto semestre,#0ba14b,6,2026
+2026-06-09,Captura de calificaciones sexto,Captura de calificaciones de tercer parcial sexto semestre,#0ba14b,6,2026
+2026-06-10,Captura de calificaciones sexto,Captura de calificaciones de tercer parcial sexto semestre,#0ba14b,6,2026
+2026-06-11,Captura de calificaciones sexto,Captura de calificaciones de tercer parcial sexto semestre,#0ba14b,6,2026
+2026-06-12,Termina captura de calificaciones sexto,Termina la captura de calificaciones de tercer parcial sexto semestre,#0ba14b,6,2026
+2026-06-15,Tercer parcial segundos y cuartos,Inicia la aplicación de la tercera evaluación parcial segundos y cuartos y aplicación de TS,#b7950b,6,2026
+2026-06-16,Tercer parcial segundos y cuartos,Aplicación de la tercera evaluación parcial segundos y cuartos y aplicación de TS,#b7950b,6,2026
+2026-06-17,Tercer parcial segundos y cuartos,Termina la aplicación de la tercera evaluación parcial segundos y cuartos y aplicación de TS,#b7950b,6,2026
+2026-06-15,Entrega de actas sexto semestre, Entrega de actas finales de sexto semestre para elaboración de certificados,#0ba14b,6,2026
+2026-06-16,Entrega de actas sexto semestre, Entrega de actas finales de sexto semestre para elaboración de certificados,#0ba14b,6,2026
+2026-06-18,Curso de recuperación (R1) segundos y cuartos,Curso de Recuperación del Periodo Ordinario (R1) segundos y cuartos,#8bc34a,6,2026
+2026-06-19,Curso de recuperación (R1) segundos y cuartos,Curso de Recuperación del Periodo Ordinario (R1) segundos y cuartos,#8bc34a,6,2026
+2026-06-22,Captura de calificaciones,Captura de calificaciones de tercer parcial segundo y cuarto semestre,#0ba14b,6,2026
+2026-06-23,Captura de calificaciones,Captura de calificaciones de tercer parcial segundo y cuarto semestre,#0ba14b,6,2026
+2026-06-24,Captura de calificaciones,Captura de calificaciones de tercer parcial segundo y cuarto semestre,#0ba14b,6,2026
+2026-06-25,Captura de calificaciones,Captura de calificaciones de tercer parcial segundo y cuarto semestre,#0ba14b,6,2026
+2026-06-26,Captura de calificaciones,Captura de calificaciones de tercer parcial segundo y cuarto semestre,#0ba14b,6,2026
+2026-06-26,Entrega de informes CEMSAD,"Entrega el 1er informe de alumnos a distancia, proyectos de HFA, HC y/o talleres.",#8e44ad,6,2026
+2026-06-22,Periodo extraordinario,Inicia periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,06,2026
+2026-06-23,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,06,2026
+2026-06-24,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,06,2026
+2026-06-25,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,06,2026
+2026-06-26,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,06,2026
+2026-06-29,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,06,2026
+2026-06-30,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,06,2026
+2026-07-01,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,07,2026
+2026-07-02,Periodo extraordinario,Periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,07,2026
+2026-07-03,Periodo extraordinario,Termina periodo extraordinario (Regularización y Cursos Intersemestrales),#cd0e79,07,2026
+2026-07-01,Entrega de informes CEMSAD,"Entrega el 4to informe trimestral (abril-julio) de caja de herramientas yo no abandono, círculo de lectura, programa Construye-T y el segundo informe trimestral de actividades.",#8e44ad,7,2026
+2026-07-01,Captura de calificaciones,"Captura de recuperación, regularización y títulos de suficiencia en la plataforma",#0ba14b,7,2026
+2026-07-02,Captura de calificaciones,"Captura de recuperación, regularización y títulos de suficiencia en la plataforma",#0ba14b,7,2026
+2026-07-03,Captura de calificaciones,"Captura de recuperación, regularización y títulos de suficiencia en la plataforma",#0ba14b,7,2026
+2026-07-06,Captura de calificaciones,"Captura de recuperación, regularización y títulos de suficiencia en la plataforma",#0ba14b,7,2026
+2026-07-07,Captura de calificaciones,"Captura de recuperación, regularización y títulos de suficiencia en la plataforma",#0ba14b,7,2026
+2026-07-08,Captura de calificaciones,"Captura de recuperación, regularización y títulos de suficiencia en la plataforma",#0ba14b,7,2026
+2026-07-09,Captura de calificaciones,"Captura de recuperación, regularización y títulos de suficiencia en la plataforma",#0ba14b,7,2026
+2026-07-10,Captura de calificaciones,"Captura de recuperación, regularización y títulos de suficiencia en la plataforma",#0ba14b,7,2026
+2026-07-08,Entrega de información CEMSAD,"Entrega de propuesta horarios solicitud HFA, HC y HA",#8e44ad,7,2026
+2026-07-06,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-07,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-08,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-09,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-10,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-13,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-14,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-15,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-16,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-17,Proceso de nuevo ingreso,"Proceso de nuevo ingreso (pretest, curso propedéutico, postest COSDAC)",#f3b519,7,2026
+2026-07-13,Clausuras,"Ceremonias de clausura generación 2023-2026",#808ae1,7,2026
+2026-07-14,Clausuras,"Ceremonias de clausura generación 2023-2026",#808ae1,7,2026
+2026-07-15,Clausuras,"Ceremonias de clausura generación 2023-2026",#808ae1,7,2026
+2026-07-16,Clausuras,"Ceremonias de clausura generación 2023-2026",#808ae1,7,2026
+2026-07-17,Clausuras,"Ceremonias de clausura generación 2023-2026",#808ae1,7,2026

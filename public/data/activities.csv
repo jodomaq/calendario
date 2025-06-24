@@ -1,6 +1,7 @@
 fecha_inicio,fecha_fin,actividad,color
 2025-08-18,2025-08-18,Inicio de Actividades,#4287f5
-2025-08-18,2025-08-29,Inscripciones y reinscripciones,#9c27b0
+2025-08-18,2025-08-22,Inscripciones y reinscripciones,#9c27b0
+2025-08-25,2025-08-29,Inscripciones y reinscripciones,#9c27b0
 2025-09-01,2025-09-01,Inicio de Semestre,#4287f5
 2025-09-16,2025-09-16,Conmemoración Independencia,#e53935
 2025-10-01,2025-10-03,Primer parcial,#ff9800
@@ -14,9 +15,13 @@ fecha_inicio,fecha_fin,actividad,color
 2026-01-07,2026-01-07,Inicio de Actividades,#4287f5
 2026-01-23,2026-01-23,Fin de semestre,#795548
 2026-01-07,2026-01-09,Curso de recuperación (R1),#8bc34a
-2026-01-12,2026-01-23,"Periodo Extraordinario (Regularización y Cursos Intersemestrales)",#8bc34a
+2026-01-12,2026-01-16,"Periodo Extraordinario (Regularización y Cursos Intersemestrales)",#8bc34a
+2026-01-19,2026-01-23,"Periodo Extraordinario (Regularización y Cursos Intersemestrales)",#8bc34a
 2026-01-26,2026-01-30,Periodo de reinscripciones,#9c27b0
-2026-01-07,2026-01-30,"Formación, planeación docente y academias",#673ab7
+2026-01-07,2026-01-09,"Formación, planeación docente y academias",#673ab7
+2026-01-12,2026-01-16,"Formación, planeación docente y academias",#673ab7
+2026-01-19,2026-01-23,"Formación, planeación docente y academias",#673ab7
+2026-01-26,2026-01-30,"Formación, planeación docente y academias",#673ab7
 2026-02-02,2026-02-02,Día de la Constitución Política,#e53935
 2026-02-03,2026-02-03,Inicio de Semestre,#4287f5
 2026-03-04,2026-03-06,Primer parcial,#ff9800
@@ -33,7 +38,9 @@ fecha_inicio,fecha_fin,actividad,color
 2026-06-08,2026-06-12,Periodo Extraordinario (Regularización y CI) 6 sem,#8bc34a
 2026-06-15,2026-06-17,Tercer parcial 2 y 4 semestre,#ff9800
 2026-06-18,2026-06-19,Curso de recuperación (R1) 2 y 4 sem,#8bc34a
-2026-06-22,2026-07-03,"Periodo Extraordinario (Regularización y Cursos Intersemestrales) 2 y 4 sem",#8bc34a
+2026-06-22,2026-06-26,"Periodo Extraordinario (Regularización y Cursos Intersemestrales) 2 y 4 sem",#8bc34a
+2026-06-29,2026-07-03,"Periodo Extraordinario (Regularización y Cursos Intersemestrales) 2 y 4 sem",#8bc34a
 2026-07-17,2026-07-17,Fin de semestre 2 y 4 semestre,#4287f5
 2026-07-13,2026-07-17,Clausuras,#795548
-2026-07-06,2026-07-17,"Proceso de nuevo ingreso (evaluación y curso propedéutico COSFAC)",#673ab7
+2026-07-06,2026-07-10,"Proceso de nuevo ingreso (evaluación y curso propedéutico COSFAC)",#673ab7
+2026-07-13,2026-07-17,"Proceso de nuevo ingreso (evaluación y curso propedéutico COSFAC)",#673ab7
